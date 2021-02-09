@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{82201FCE-0C59-4A9A-990B-B0216049EFFF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3704C88F-0A41-44B9-9580-A7326351A190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commander.Gql", "src\Commander.Gql\Commander.Gql.csproj", "{E4CDA08B-6656-4C56-8D91-0A1FAE64DE77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4CDA08B-6656-4C56-8D91-0A1FAE64DE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CDA08B-6656-4C56-8D91-0A1FAE64DE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CDA08B-6656-4C56-8D91-0A1FAE64DE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CDA08B-6656-4C56-8D91-0A1FAE64DE77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4CDA08B-6656-4C56-8D91-0A1FAE64DE77} = {3704C88F-0A41-44B9-9580-A7326351A190}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7962DB9-742D-4DB2-9526-AEC2BDFE4175}
+	EndGlobalSection
+EndGlobal

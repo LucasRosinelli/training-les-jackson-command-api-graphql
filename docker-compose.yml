@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+
+  db_sqlserver:
+    image: "mcr.microsoft.com/mssql/server:2017-latest-ubuntu"
+    container_name: db_sqlserver
+    volumes:
+      - db_sqlserver_data:/var/opt/mssql/data
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Pa55w0rd"
+      MSSQL_PID: "Express"
+    restart: always
+    ports:
+      - "1433:1433"
+
+volumes:
+  db_sqlserver_data:
